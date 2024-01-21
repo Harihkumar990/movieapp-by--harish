@@ -1,0 +1,25 @@
+{
+  "name": "movieapp",
+  "version": "1.0.0",
+  "description": "movie listing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Harihkumar990/movieapp-by--harish.git).git"
+  },
+  "keywords": [
+    "movies"
+  ],
+  "author": "harish kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harihkumar990/movieapp-by--harish.git)/issues"
+  },
+  "homepage": "https://github.com/Harihkumar990/movieapp-by--harish.git)#readme",
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}

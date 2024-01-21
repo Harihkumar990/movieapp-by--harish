@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-color:#191919;
+    --card-bg:#064663;
+    --txt-color:#fafafa;
+}
+body{
+    background-color: var(--bg-color);
+    font-family: "Montserrat", sans-serif;
+}
+.header{
+    width: 100vw;
+    position: fixed;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+.heading{
+    color: var(--txt-color);
+    font-size: 3rem;
+    
+    
+
+}
+.headingcontainer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:30rem;
+    width:25rem;
+    
+}
+.select-genre{
+    margin: 2rem 3rem 2rem 2rem;
+    background-color: transparent;
+    color: var(--txt-color);
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    
+}
+.inputcontainer{
+    width:40vw;
+    position: relative;
+    left: 10rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:10px;
+   
+    
+    
+}
+input[type=text] {
+    width: 3rem;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    right:20px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent; 
+    transition: width 0.4s ease-in-out;
+    color: #fafafa;
+}
+.buttonsbmt{
+  position: relative;
+  right:20px;
+  background-color: var(--card-bg);
+  color: #fafafa;
+  
+    
+}
+.buttonsbmt:hover{
+    scale: 1.2;
+    transition: scale 0.5s ease-in;
+}
+
+  
+input[type=text]:focus {
+    width: 15rem;
+    outline: none;
+    border-bottom: 2px solid red;
+}
+.main{
+    padding: 8rem 2rem 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    grid-column-gap: 1.75rem;
+    grid-row-gap: 10rem;
+
+}  
+.image{
+    
+    width: 300px;
+    height:400px;
+    
+  }
+.descriptioncontainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:300px;
+    font-weight: 600;
+    color: #fafafa;
+    
+}
+.imagecontainer{
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.option{
+    color: #fafafa;
+    background-color: #191919;
+    
+
+}
+
+  
+
